@@ -53,7 +53,7 @@ const app = express();
 //});
 
 var corsOptions = {
-  origin: "http://localhost:4200"
+  origin: "http://prod-enviornment.s3-website-us-east-1.amazonaws.com"
 };
 
 app.use(cors(corsOptions));
