@@ -2,7 +2,7 @@ module.exports = {
   HOST: "proddashboaddata.ckkphcelemjn.us-east-1.rds.amazonaws.com",
   USER: "root",
   PASSWORD: "Imaginal123!",
-  DB: '',
+  DB: 'ProdDashboardData',
   dialect: "mysql",
   pool: {
     max: 5,
