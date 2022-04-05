@@ -75,12 +75,12 @@ app.get("/", (req, res) => {
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
 
-require("../app/routes/secondaryguidance.routes.js")(app);
-require("../app/routes/route.dutydef.js")(app);
-require("../app/routes/sqlQuery.js")(app);
-require("../app/routes/ProdStatutes.js")(app);
-require("../app/routes/ProdRegulations.js")(app);
-require("../app/routes/ProdConnections.js")(app);
+require("../routes/secondaryguidance.routes.js")(app);
+require("../routes/route.dutydef.js")(app);
+require("../routes/sqlQuery.js")(app);
+require("../routes/ProdStatutes.js")(app);
+require("../routes/ProdRegulations.js")(app);
+require("../routes/ProdConnections.js")(app);
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
