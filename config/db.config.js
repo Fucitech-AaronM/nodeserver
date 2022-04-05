@@ -1,5 +1,5 @@
 module.exports = {
-  HOST: "proddashboaddata.ckkphcelemjn.us-east-1.rds.amazonaws.com",
+  HOST: "http://fucitechlegal.com.s3-website-us-east-1.amazonaws.com",
   USER: "root",
   PASSWORD: "Imaginal123!",
   DB: 'ProdDashboardData',
