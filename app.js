@@ -53,7 +53,7 @@ const app = express();
 //});
 
 var corsOptions = {
-  origin: "http://fucitechlegal.com.s3-website-us-east-1.amazonaws.com"
+  origin: "http://fucitechlegal.com"
 };
 
 app.use(cors(corsOptions));
