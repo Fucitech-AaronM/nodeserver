@@ -53,11 +53,11 @@ const app = express();
 //});
 
 var corsOptions = {
-  origin: ["http://fucitechlegal.com", "http://fucitechlegal.com.s3-website-us-east-1.amazonaws.com/"],
+  origin: "http://fucitechlegal.com.s3-website-us-east-1.amazonaws.com/"],
   default:"http://fucitechlegal.com"
 };
 
-app.use(cors({origin: ["http://fucitechlegal.com/", "http://fucitechlegal.com.s3-website-us-east-1.amazonaws.com/"] }));
+app.use(cors({origin: "http://fucitechlegal.com.s3-website-us-east-1.amazonaws.com/"}));
 
 // parse requests of content-type - application/json
 app.use(bodyParser.json());
