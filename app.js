@@ -57,7 +57,7 @@ var corsOptions = {
   default:"http://fucitechlegal.com"
 };
 
-app.use(cors({origin:'*'}));
+app.use(cors({origin:'http://fucitechlegal.com/'}));
 
 // parse requests of content-type - application/json
 app.use(bodyParser.json());
